@@ -1,0 +1,9 @@
+{
+    "appName": "Recipe App",
+    "system": "Sistem",
+    "dark": "Koyu",
+    "light": "Açık",
+    "turkish": "Türkçe",
+    "english": "English",
+    "somethingWentWrong": "Birşeyler yanlış gitti!"
+}
