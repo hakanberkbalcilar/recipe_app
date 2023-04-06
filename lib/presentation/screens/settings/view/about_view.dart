@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:recipe_app/core/base/state/consumer_state_x.dart';
 import 'package:recipe_app/core/constants/dimens.dart';
+import 'package:recipe_app/core/constants/images.dart';
 
 class AboutView extends ConsumerStatefulWidget {
   const AboutView({Key? key}) : super(key: key);
@@ -33,17 +34,10 @@ class _AboutViewState extends ConsumerStateX<AboutView> {
         child: Column(
           children: [
             Center(
-              child: SizedBox(
-                width: mediaQuery.size.width * 2,
-                child: CircleAvatar(
-                  backgroundColor: theme.colorScheme.background,
-                  radius: mediaQuery.size.width * .25,
-                  child: Icon(
-                    Icons.soup_kitchen_rounded,
-                    color: theme.colorScheme.primary,
-                    size: mediaQuery.size.width * .25,
-                  ),
-                ),
+              child: Image.asset(
+                Images.icon,
+                width: mediaQuery.size.width * .5,
+                fit: BoxFit.fitWidth,
               ),
             ),
             const SizedBox(height: Dimens.paddingTileBetween),
