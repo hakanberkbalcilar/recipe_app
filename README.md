@@ -40,14 +40,16 @@ https://github.com/hakanberkbalcilar/recipe_app
 
 2. Change to the project directory:
    
-bash
+```bash
 cd recipe_app
+```
 
 
 3. Install dependencies:
 
-bash
+```bash
 flutter pub get
+```
 
 
 4. Open the project in Android Studio or Visual Studio Code.
@@ -56,8 +58,9 @@ flutter pub get
 
 6. Run the app:
    
-bash
+```bash
 flutter run
+```
 
 
 ## Built With
